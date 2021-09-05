@@ -26,3 +26,11 @@ def get_tasks():
     data = db.get_all(table_name="tasks")
 
     return data
+    
+
+@app.post("/task")
+def add_task(task: Task):
+
+    db.add_item(table_name="tasks", item=task.dict())
+
+    return task.dict()

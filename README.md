@@ -23,15 +23,15 @@ O Planner utiliza o algoritimo de Interval Scheduling para priorizar um conjunto
 ## 📷 Screenshots 
 Retorno da execução do projeto. Planner com a maior quantidade de tarefas a serem executadas.
 
-![Planne completo]()
+![image](https://user-images.githubusercontent.com/29442029/132268353-a50bcc43-a490-4999-862d-e3d2af975359.png)
 
 Retorno da execução do projeto. Adição de tasks no Planner.
 
-![Adição de tasks /POST]()
+![image](https://user-images.githubusercontent.com/29442029/132268345-6ee184b5-5788-48d6-8dbb-93d68549ca3c.png)
 
 Retorno da execução do projeto. Visualização das tasks no Planner sem a execução do Interval Scheduling.
 
-![Tasks /GET]()
+![image](https://user-images.githubusercontent.com/29442029/132268356-a914c272-8cf6-493d-a6f6-7dd6f9362caa.png)
 
 ## ⚙️ Instalação 
 **Linguagem**: 🐍 Python<br>
@@ -62,13 +62,8 @@ $ docker-compose up --build
 ## 💻 Uso 
 Utilize o isominia para as requisições http. Siga o exemplo a baixo pra utilizar a rota. Adicione suas tarefas para testar a aplicação.😉
 
-1) Visualize a lista de tarefas existentes: http://0.0.0.0:8000/tasks
-2) Adicione sua tarefa em: http://0.0.0.0:8000/task
-~~~
-{ 
-
-}
-~~~
-3) Visualize o planner mais produtivo para a execução das suas atividades: http://0.0.0.0:8000/best_strategy
+1) Visualize a lista de tarefas existentes: (GET) http://0.0.0.0:8000/tasks
+2) Adicione sua tarefa em: (POST) http://0.0.0.0:8000/task
+3) Visualize o planner mais produtivo para a execução das suas atividades: (GET) http://0.0.0.0:8000/best_strategy
 
 ## Outros 

@@ -18,7 +18,7 @@ Temas:
 O Planner utiliza o algoritimo de Interval Scheduling para priorizar um conjunto com maior quantidade de tarefas. No Planner é possivel adicionar tarefas e receber um conjunto que seja mais produtivo, neste caso que contenha o maior numero de tarefas a serem realizadas.
 
 ## Video
-[Link para o video explicativo]()
+[Link para o video explicativo](https://drive.google.com/file/d/1ODzixKfzQBPN5fzqpgORWytYk29z2qpj/view?usp=sharing)
 
 ## 📷 Screenshots 
 Retorno da execução do projeto. Planner com a maior quantidade de tarefas a serem executadas.
